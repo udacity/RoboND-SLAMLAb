@@ -3,10 +3,10 @@
 # RoboND-SLAMLab
 In this lab, you’ll implement a gmapping ROS package which is based on the Grid-based FastSLAM algorithm to map an environment.
 
-### Steps to Launch the Simulation:
+### Steps to launch the simulation:
 Launch the simulation in the VM machine provided in Term1. 
 
-#### Step 1 Create a Catkin Workspace:
+#### Step 1 Create a catkin workspace:
 Skipt this step if you already have a workspace
 ```sh
 $ mkdir -p ~/catkin_ws/src
@@ -16,18 +16,25 @@ $ cd ..
 $ catkin_make
 ```
 
-#### Step 2 Perform a System Update:
+#### Step 2 Perform a system update:
 ```sh
 $ sudo apt-get update
 ```
 
-#### Step 3 Clone the Package in src:
+#### Step 3 Clone the package in src:
 ```sh
 $ cd ~/catkin_ws/src
 $ git clone https://github.com/udacity/RoboND-SLAMLab
 ```
 
-#### Step 4 Launch the nodes:
+#### Step 4 Build and source your workspace:
+```sh
+$ cd ..
+$ catkin_make
+$ source devel/setup.bash
+```
+
+#### Step 5 Launch the nodes:
 ```sh
 $ cd RoboND-SLAMLab
 $ ./SLAM.sh
