@@ -36,7 +36,7 @@ $ source devel/setup.bash
 
 #### Step 5 Launch the nodes:
 ```sh
-$ cd RoboND-SLAMLab
+$ cd src/RoboND-SLAMLab
 $ ./SLAM.sh
 ```
 Now, you should see Gazebo and rviz launching.
