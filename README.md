@@ -1,6 +1,6 @@
 [![Udacity - Robotics NanoDegree Program](https://s3-us-west-1.amazonaws.com/udacity-robotics/Extra+Images/RoboND_flag.png)](https://www.udacity.com/robotics)
 
-# RoboND-SLAMLab
+# RoboND-SLAMLab-Private
 In this lab, you’ll implement a gmapping ROS package which is based on the Grid-based FastSLAM algorithm to map an environment.
 
 ### Steps to launch the simulation:
@@ -36,7 +36,7 @@ $ source devel/setup.bash
 
 #### Step 5 Launch the nodes:
 ```sh
-$ cd src/RoboND-SLAMLab
+$ cd src/RoboND-SLAMLab-Private
 $ ./SLAM.sh
 ```
 Now, you should see Gazebo and rviz launching.
