@@ -5,5 +5,5 @@ xterm  -e " cd ~/catkin_ws; source devel/setup.bash ; roslaunch turtlebot_teleop
 sleep 2
 xterm -e " cd ~/catkin_ws; source devel/setup.bash ; rosrun gmapping slam_gmapping  " &
 sleep 3
-xterm  -e " cd ~/catkin_ws; source devel/setup.bash ; rosrun rviz rviz -d ~/catkin_ws/src/RoboND-SLAMLab/slamconfig.rviz" &
+xterm  -e " cd ~/catkin_ws; source devel/setup.bash ; rosrun rviz rviz -d ~/catkin_ws/src/RoboND-SLAMLab-Private/slamconfig.rviz" &
 
