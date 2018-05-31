@@ -1,6 +1,6 @@
 [![Udacity - Robotics NanoDegree Program](https://s3-us-west-1.amazonaws.com/udacity-robotics/Extra+Images/RoboND_flag.png)](https://www.udacity.com/robotics)
 
-# RoboND-SLAMLab-Private
+# RoboND-SLAMLab
 In this lab, you’ll implement a gmapping ROS package which is based on the Grid-based FastSLAM algorithm to map an environment.
 
 ### Steps to launch the simulation:
@@ -24,7 +24,7 @@ $ sudo apt-get update
 #### Step 3 Clone the package in src:
 ```sh
 $ cd ~/catkin_ws/src
-$ git clone https://github.com/udacity/RoboND-SLAMLab-Private
+$ git clone https://github.com/udacity/RoboND-SLAMLab
 ```
 
 #### Step 4 Build and source your workspace:
@@ -36,7 +36,7 @@ $ source devel/setup.bash
 
 #### Step 5 Launch the nodes:
 ```sh
-$ cd src/RoboND-SLAMLab-Private
+$ cd src/RoboND-SLAMLab
 $ ./SLAM.sh
 ```
 Now, you should see Gazebo and rviz launching.
