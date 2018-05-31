@@ -42,4 +42,5 @@ $ ./SLAM.sh
 Now, you should see Gazebo and rviz launching.
 
 ### End Result:
-In the terminal, use the keyboard commands(u-i-o-j-k-l-m-,-.) and drive the robot around. You'll see a map of the environment in Gazebo!
+In the terminal, use the keyboard commands(u-i-o-j-k-l-m-,-.) and drive the robot around. You'll see a map of the environment in Rviz! 
+![alt text](Images/Output.png)
