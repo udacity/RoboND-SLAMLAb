@@ -18,7 +18,7 @@ $ catkin_make
 
 #### Step 2 Perform a system update
 ```sh
-$ sudo apt-get update
+$ apt-get update
 ```
 
 #### Step 3 Clone the package in src
