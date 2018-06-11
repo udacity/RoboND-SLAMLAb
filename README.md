@@ -10,7 +10,7 @@ Launch the simulation in the VM machine provided in Term1.
 Skipt this step if you already have a workspace
 ```sh
 $ mkdir -p /home/workspace/catkin_ws/src
-$ cd /catkin_ws/src
+$ cd /home/workspace/catkin_ws/src
 $ catkin_init_workspace
 $ cd ..
 $ catkin_make
@@ -23,7 +23,7 @@ $ apt-get update
 
 #### Step 3 Clone the package in src
 ```sh
-$ cd  /home/workspace/catkin_ws/src
+$ cd /home/workspace/catkin_ws/src
 $ git clone https://github.com/udacity/RoboND-SLAMLab
 ```
 
