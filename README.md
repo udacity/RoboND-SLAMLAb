@@ -16,9 +16,10 @@ $ cd ..
 $ catkin_make
 ```
 
-#### Step 2 Perform a system update
+#### Step 2 Perform a system update/upgrade
 ```sh
 $ apt-get update
+$ apt-get upgrade -y
 ```
 
 #### Step 3 Clone the package in src
